@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Charles Houston</title>
+    <link>https://cpjh.github.io/blog/index.xml</link>
+    <description>Recent content in Blog on Charles Houston</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <lastBuildDate>Wed, 17 Aug 2016 10:21:29 +0100</lastBuildDate>
+    <atom:link href="https://cpjh.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Learning Japanese</title>
+      <link>https://cpjh.github.io/blog/learning-japanese/</link>
+      <pubDate>Wed, 17 Aug 2016 10:21:29 +0100</pubDate>
+      
+      <guid>https://cpjh.github.io/blog/learning-japanese/</guid>
+      <description>&lt;p&gt;Over the past half year or so, I&amp;rsquo;ve been slowly building up my working knowledge of Japanese. After a formal education in French (and minor dabblings in German and Swedish), getting to grips with Japanese has been refreshing and exciting. Studying a humanities subject also provides a balancing contrast to my computational and mathematical field of research. My (very) long-term goal is to be able to read, listen and converse in the language.&lt;/p&gt;
+
+&lt;p&gt;Of the resources I&amp;rsquo;ve looked through, a few have been particularly useful. After learning Hiragana and Katakana, I tried the RTK method to learn some initial Kanji. However, I&amp;rsquo;ve recently started using &lt;a href=&#34;https://www.wanikani.com&#34;&gt;WaniKani&lt;/a&gt; from the beginning and think its an excellent resource. For grammar, &lt;a href=&#34;http://www.guidetojapanese.org/learn/grammar&#34;&gt;Tae Kim&amp;rsquo;s online guide&lt;/a&gt; is really excellent. There&amp;rsquo;s so much information here, presented in an easy-to-understand fashion.&lt;/p&gt;
+
+&lt;p&gt;The main purpose of this post is to put the notes I&amp;rsquo;ve started making for Tae Kim&amp;rsquo;s guide online. I&amp;rsquo;m directly using examples and text from the guide and aim to produce a much-condensed version for referral rather than learning. I&amp;rsquo;ve linked it &lt;a href=&#34;https://cpjh.github.io/nihongo-notes/&#34;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

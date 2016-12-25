@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Charles Houston</title>
+    <link>https://cpjh.github.io/index.xml</link>
+    <description>Recent content on Charles Houston</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <lastBuildDate>Wed, 17 Aug 2016 10:21:36 +0100</lastBuildDate>
+    <atom:link href="https://cpjh.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>https://cpjh.github.io/about/</link>
+      <pubDate>Wed, 17 Aug 2016 10:21:36 +0100</pubDate>
+      
+      <guid>https://cpjh.github.io/about/</guid>
+      <description>&lt;p&gt;I am a 23 year-old PhD student in the ElectroCardioMaths Programme at Imperial College London. After graduating as the top student from my Masters undergraduate degree in Aeronautics at Imperial, including a year working as a computational aerodynamicist in Formula One, I followed my mathematical interdisciplinary interests and progressed into a research role within the university.&lt;/p&gt;
+
+&lt;p&gt;My research is at the intersection of wide-ranging fields including computational modelling, applied mathematics and bioengineering. I feel it is best captured by the term ‘biological computation’.&lt;/p&gt;
+
+&lt;p&gt;The aim of my current work is to use advanced modelling techniques to develop high-performance, biologically-validated and cell-discrete in-silico models of phenomena observed in action potential propagation through cardiac cells. These phenomena underlie many forms of heart rhythm disturbances but are yet to be fully understood. An in-silico model would generate further insight into the mechanisms behind these features, and ultimately improve the diagnosis and medical intervention required for the effective treatment of many types of cardiac arrhythmia.&lt;/p&gt;
+
+&lt;p&gt;I also have active interests in data science; how best to capture, process, analyse and present large volumes of complex data in order to transform the seemingly unintelligible into meaningful insights. I explore this field through my work with high-resolution spatiotemporal optical mapping as well as personal projects using open data sources.&lt;/p&gt;
+
+&lt;p&gt;Please feel free to get in touch at &lt;a href=&#34;mailto:charles.houston11@imperial.ac.uk&#34;&gt;charles.houston11@imperial.ac.uk&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning Japanese</title>
+      <link>https://cpjh.github.io/blog/learning-japanese/</link>
+      <pubDate>Wed, 17 Aug 2016 10:21:29 +0100</pubDate>
+      
+      <guid>https://cpjh.github.io/blog/learning-japanese/</guid>
+      <description>&lt;p&gt;Over the past half year or so, I&amp;rsquo;ve been slowly building up my working knowledge of Japanese. After a formal education in French (and minor dabblings in German and Swedish), getting to grips with Japanese has been refreshing and exciting. Studying a humanities subject also provides a balancing contrast to my computational and mathematical field of research. My (very) long-term goal is to be able to read, listen and converse in the language.&lt;/p&gt;
+
+&lt;p&gt;Of the resources I&amp;rsquo;ve looked through, a few have been particularly useful. After learning Hiragana and Katakana, I tried the RTK method to learn some initial Kanji. However, I&amp;rsquo;ve recently started using &lt;a href=&#34;https://www.wanikani.com&#34;&gt;WaniKani&lt;/a&gt; from the beginning and think its an excellent resource. For grammar, &lt;a href=&#34;http://www.guidetojapanese.org/learn/grammar&#34;&gt;Tae Kim&amp;rsquo;s online guide&lt;/a&gt; is really excellent. There&amp;rsquo;s so much information here, presented in an easy-to-understand fashion.&lt;/p&gt;
+
+&lt;p&gt;The main purpose of this post is to put the notes I&amp;rsquo;ve started making for Tae Kim&amp;rsquo;s guide online. I&amp;rsquo;m directly using examples and text from the guide and aim to produce a much-condensed version for referral rather than learning. I&amp;rsquo;ve linked it &lt;a href=&#34;https://cpjh.github.io/nihongo-notes/&#34;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
