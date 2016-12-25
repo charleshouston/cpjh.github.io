@@ -1,0 +1,795 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <base href="">
+
+        <link rel="stylesheet" href="book.css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+        <link rel="shortcut icon" href="favicon.png">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+
+        <!-- MathJax -->
+        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+        <!-- Fetch JQuery from CDN but have a local fallback -->
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script>
+            if (typeof jQuery == 'undefined') {
+                document.write(unescape("%3Cscript src='jquery.js'%3E%3C/script%3E"));
+            }
+        </script>
+    </head>
+    <body class="light">
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme = localStorage.getItem('theme');
+            if (theme == null) { theme = 'light'; }
+            $('body').removeClass().addClass(theme);
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var sidebar = localStorage.getItem('sidebar');
+            if (sidebar === "hidden") { $("html").addClass("sidebar-hidden") }
+            else if (sidebar === "visible") { $("html").addClass("sidebar-visible") }
+        </script>
+
+        <div id="sidebar" class="sidebar">
+            <ul class="chapter"><li><a href="./chapter_1.html"><strong>1.</strong> Expressing state-of-being</a></li><li><a href="./chapter_2.html"><strong>2.</strong> Introduction to Particles</a></li><li><a href="./chapter_3.html"><strong>3.</strong> Adjectives</a></li><li><a href="./chapter_4.html"><strong>4.</strong> Verb Basics</a></li><li><a href="./chapter_5.html"><strong>5.</strong> Negative Verbs</a></li><li><a href="./chapter_6.html"><strong>6.</strong> Past Tense</a></li><li><a href="./chapter_7.html"><strong>7.</strong> Particles used with verbs</a></li><li><a href="./chapter_8.html"><strong>8.</strong> Transitive and Intransitive Verbs</a></li></ul>
+        </div>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar" class="menu-bar">
+                    <div class="left-buttons">
+                        <i id="sidebar-toggle" class="fa fa-bars"></i>
+                        <i id="theme-toggle" class="fa fa-paint-brush"></i>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <i id="print-button" class="fa fa-print" title="Print this book"></i>
+                    </div>
+                </div>
+
+                <div id="content" class="content">
+                    <h1>Expressing state-of-being</h1>
+<h2>Declaring that something is so using 「だ」</h2>
+<blockquote>
+<p>Attach 「だ」to the noun or na-adjective.</p>
+</blockquote>
+<h3>Examples</h3>
+<ol>
+<li>
+<p>人だ。</p>
+<p>Is person.</p>
+</li>
+<li>
+<p>学生だ。</p>
+<p>Is student.</p>
+</li>
+<li>
+<p>元気だ。</p>
+<p>Is well.</p>
+</li>
+</ol>
+<h3>Typical casual greeting</h3>
+<p><strong>A state-of-being can be implied without using 「だ」!</strong></p>
+<p>A: 元気？</p>
+<p>A: (Are you) well?</p>
+<p>B: 元気。</p>
+<p>B: (I'm) well.</p>
+<h2>Conjugating to the negative state-of-being</h2>
+<blockquote>
+<p>Attach 「じゃない」to the noun or na-adjective.</p>
+</blockquote>
+<h3>Examples</h3>
+<ol>
+<li>
+<p>学生じゃない。</p>
+<p>Is not student.</p>
+</li>
+<li>
+<p>友達じゃない。</p>
+<p>Is not friend.</p>
+</li>
+<li>
+<p>元気じゃない。</p>
+<p>Is not well.</p>
+</li>
+</ol>
+<h2>Conjugating to the past state-of-being</h2>
+<blockquote>
+<p><strong>Past state-of-being:</strong> Attach 「だった」to the noun or na-adjective.</p>
+<p><strong>Negative past state-of-being:</strong> Conjugate the noun or na-adjective to the negative first and then replace 「い」of 「じゃない」with 「かった」.</p>
+</blockquote>
+<h3>Examples</h3>
+<ol>
+<li>
+<p>学生だった。</p>
+<p>Was student.</p>
+</li>
+<li>
+<p>友達じゃなかった。</p>
+<p>Was not friend.</p>
+</li>
+<li>
+<p>元気じゃなかった。</p>
+<p>Was not well.</p>
+</li>
+</ol>
+<h1>Introduction to Particles</h1>
+<h2>The 「は」topic particle</h2>
+<blockquote>
+<p>The topic particle identifies what it is that you're talking about, essentially the topic of your sentence.</p>
+</blockquote>
+<h3>Examples</h3>
+<p>ボブ：アリスは学生？</p>
+<p>Bob: Is Alice (you) student?</p>
+<p>アリス：うん、学生。</p>
+<p>Alice: Yeah, (I) am.</p>
+<hr />
+<p>ボブ：ジョンは明日？</p>
+<p>Bob: John is tomorrow?</p>
+<p>アリス：ううん、明日じゃない。</p>
+<p>Alice: No, not tomorrow.</p>
+<hr />
+<p>アリス：今日は試験だ。</p>
+<p>Alice: Today is exam.</p>
+<p>ボブ：ジョンは？</p>
+<p>Bob: What about John?</p>
+<p>アリス：ジョンは明日。</p>
+<p>Alice: John is tomorrow. (As for John, the exam is tomorrow.)</p>
+<h2>The 「も」inclusive topic particle</h2>
+<blockquote>
+<p>The inclusive particle is essentially the same as the topic particle with the additional meaning &quot;also&quot;. Basically, it can introduce another topic in addition to the current topic.</p>
+</blockquote>
+<h3>Examples</h3>
+<p>ボブ：アリスは学生？</p>
+<p>Bob: Is Alice (you) student?</p>
+<p>アリス：うん、トムも学生.</p>
+<p>Alice: Yeah, and Tom is <em>also</em> student.</p>
+<hr />
+<p>ボブ：アリスは学生？</p>
+<p>Bob: Is Alice (you) student?</p>
+<p>アリス：うん、でもトムは学生じゃない。</p>
+<p>Alice: Yeah, but Tom is not student.</p>
+<hr />
+<p>ボブ：アリスは学生？</p>
+<p>Bob: Is Alice (you) student?</p>
+<p>アリス：ううん、トムも学生じゃない。</p>
+<p>Alice: No, and Tom is also not student.</p>
+<h2>The 「が」identifier particle</h2>
+<blockquote>
+<p>The identifier particle is used to indicate the speaker wants to identify something unspecified.</p>
+</blockquote>
+<h3>Examples</h3>
+<p>ボブ：誰が学生？</p>
+<p>Bob: Who is the one that is student?</p>
+<p>アリス：ジョンが学生。</p>
+<p>Alice: John is the one who is student.</p>
+<hr />
+<ol>
+<li>
+<p>誰が学生？</p>
+<p>Who is the one that is student?</p>
+</li>
+<li>
+<p>学生は誰？</p>
+<p>(The) student is who?</p>
+</li>
+</ol>
+<p>The first sentence seeks to identify a specific person for &quot;student&quot; while the second sentence is simply talking about the student.</p>
+<hr />
+<ol>
+<li>
+<p>私は学生。</p>
+<p>I (am) student.</p>
+</li>
+<li>
+<p>私が学生。</p>
+<p>I (am) student.</p>
+</li>
+</ol>
+<p>In the first sentence, since 「私」is the topic, the sentence means, &quot;Speaking about me, I am a student&quot;. However, the second sentence is specifying who 「学生」is - if we want to know who the student is, the 「が」particle tells us that it's 「私」.</p>
+<ol>
+<li>
+<p>私は学生。</p>
+<p><em>As for</em> me, (I am) student.</p>
+</li>
+<li>
+<p>私が学生。</p>
+<p>I (am) <em>the one</em> (that is) student.</p>
+</li>
+</ol>
+<h1>Adjectives</h1>
+<p>All adjectives fall under two categories: <em>na-adjectives</em> and <em>i-adjectives</em>.</p>
+<h2>The na-adjective</h2>
+<blockquote>
+<p>Conjugation rules for nouns and na-adjectives are the same. You can directly modify a noun following it by sticking 「な」between the adjective and noun.</p>
+</blockquote>
+<h3>Examples</h3>
+<ol>
+<li>
+<p>静かな人。</p>
+<p>Quiet person.</p>
+</li>
+<li>
+<p>きれいな人。</p>
+<p>Pretty person.</p>
+</li>
+</ol>
+<hr />
+<p>You can also use adjectives with particles.</p>
+<ol>
+<li>
+<p>友達は親切。</p>
+<p>Friend is kind.</p>
+</li>
+<li>
+<p>友達は親切な人だ。</p>
+<p>Friend is kind person.</p>
+</li>
+</ol>
+<hr />
+<p>The conjugation rules for na-adjectives are the same as nouns.</p>
+<ol>
+<li>
+<p>ボブは魚が好きだ。</p>
+<p>Bob likes fish.</p>
+</li>
+<li>
+<p>ボブは魚が好きじゃない。</p>
+<p>Bob does not like fish.</p>
+</li>
+<li>
+<p>ボブは魚が好きだった。</p>
+<p>Bob liked fish.</p>
+</li>
+<li>
+<p>ボブは魚が好きじゃなかった。</p>
+<p>Bob did not like fish.</p>
+</li>
+</ol>
+<hr />
+<p>You can also use the last three conjugations to directly modify the noun.</p>
+<ol>
+<li>
+<p>魚が好きな人。</p>
+<p>Person that likes fish.</p>
+</li>
+<li>
+<p>魚が好きじゃない人。</p>
+<p>Person that does not like fish.</p>
+</li>
+<li>
+<p>魚が好きだった人。</p>
+<p>Person that liked fish.</p>
+</li>
+<li>
+<p>魚が好きじゃなかった人。</p>
+<p>Person that did not like fish.</p>
+</li>
+</ol>
+<hr />
+<p>We can treat the whole descriptive noun as we would a single noun.</p>
+<ol>
+<li>
+<p>魚が好きじゃない人は、肉が好きだ。</p>
+<p>Person who does not like fish like meat.</p>
+</li>
+<li>
+<p>魚が好きな人は、野菜も好きだ。</p>
+<p>Person who likes fish also like vegetables.</p>
+</li>
+</ol>
+<h2>The i-adjective</h2>
+<blockquote>
+<p>All i-adjectives always end in the Hiragana character 「い」. Very few na-adjectives also end with 「い」, the most common of which are 「きれい」and 「嫌い」.</p>
+</blockquote>
+<h3>Examples</h3>
+<p>You do not need to add 「な」to directly modify a noun with an i-adjective.</p>
+<ol>
+<li>
+<p>嫌いな食べ物。</p>
+<p>Hated food.</p>
+</li>
+<li>
+<p>おいしい食べ物。</p>
+<p>Tasty food.</p>
+</li>
+</ol>
+<h3>Conjugation rules for i-adjectives</h3>
+<p><strong>Do NOT attach 「だ」to i-adjectives.</strong></p>
+<blockquote>
+<ul>
+<li><strong>Negative</strong>: First remove the trailing 「い」from the i-adjective and then attach 「くない」.</li>
+<li><strong>Past-tense</strong>: First remove the trailing 「い」from the i-adjective or negative i-adjective and then attach 「かった」.</li>
+</ul>
+</blockquote>
+<h3>More Examples</h3>
+<ol>
+<li>
+<p>高いビル。</p>
+<p>Tall building.</p>
+</li>
+<li>
+<p>高くないビル。</p>
+<p>Not tall building.</p>
+</li>
+<li>
+<p>高かったビル。</p>
+<p>Building that was tall.</p>
+</li>
+<li>
+<p>高くなかったビル。</p>
+<p>Building that was not tall.</p>
+</li>
+</ol>
+<hr />
+<p>値段が高いレストランはあまり好きじゃない。</p>
+<p>Don't like high price restaurants very much.</p>
+<h2>An annoying exception</h2>
+<h3>Conjugation for 「いい」</h3>
+<ul>
+<li><strong>Positive</strong>: いい</li>
+<li><strong>Negative</strong>: よくない</li>
+<li><strong>Past</strong>: よかった</li>
+<li><strong>Negative Past</strong>: よくなかった</li>
+</ul>
+<h3>Conjugation for 「かっこいい」</h3>
+<ul>
+<li><strong>Positive</strong>: かっこいい</li>
+<li><strong>Negative</strong>: かっこよくない</li>
+<li><strong>Past</strong>: かっこよかった</li>
+<li><strong>Negative Past</strong>: かっこよくなかった</li>
+</ul>
+<h1>Verb Basics</h1>
+<h2>Role of Verbs</h2>
+<blockquote>
+<p>Verbs, in Japanese, always come at the end of clauses.</p>
+<p>A grammatically complete sentence requires a verb <strong>only</strong> (including state-of-being).</p>
+</blockquote>
+<p>食べる。</p>
+<p>Eat. (possible translations include: I eat/she eats/they eat)</p>
+<h2>Classifying verbs into ru-verbs and u-verbs</h2>
+<blockquote>
+<p>All ru-verbs end in 「る」while u-verbs can end in a number of u-vowel sounds including 「る」.</p>
+<p>If a verb does not in in 「る」, it will always be a u-verb.</p>
+<p>For verbs ending in 「る」:</p>
+<ul>
+<li>
+<p>/a/, /u/ or /o/ vowel sound, it will always be a u-verb.</p>
+</li>
+<li>
+<p>/i/ or /e/ vowel sound, it will be a ru-verb <strong>in most cases</strong>.</p>
+</li>
+</ul>
+<ol>
+<li>食べる -「べ」 is an e-vowel sound so it is a ru-verb.</li>
+<li>分かる -「か」 is an a-vowel sound so it is a u-verb.</li>
+</ol>
+</blockquote>
+<h3>Examples</h3>
+<ol>
+<li>
+<p>アリスは食べる。</p>
+<p>As for Alice, eat.</p>
+</li>
+<li>
+<p>ジムが来る。</p>
+<p>Jim is the one that comes.</p>
+</li>
+<li>
+<p>ボブもする。</p>
+<p>Bob also do.</p>
+</li>
+<li>
+<p>お金がある。</p>
+<p>There is money. (lit: Money is the thing that exists.)</p>
+</li>
+<li>
+<p>私は買う。</p>
+<p>As for me, buy.</p>
+</li>
+<li>
+<p>猫はいる。</p>
+<p>There is cat. (lit: As for cat, it exists.)</p>
+</li>
+</ol>
+<h1>Negative Verbs</h1>
+<h2>Conjugating verbs into the negative</h2>
+<h3>A very important exception</h3>
+<p>「ある」(u-verb) - to exist (inanimate)</p>
+<p>「いる」(ru-verb) - to exist (animate)</p>
+<p>The negative of 「ある」 is 「ない」(meaning that something does not exist).</p>
+<h3>Conjugation rules for negative verbs</h3>
+<blockquote>
+<p><strong>For ru-verbs:</strong> Drop the 「る」and attach 「ない」.</p>
+<p><strong>For u-verbs that end in「う」:</strong> Replace 「う」with「わ」and attach 「ない」.</p>
+<p><strong>For all other u-verbs:</strong> Replace the u-vowel sound with the a-vowel equivalent and attach 「ない」.</p>
+<p><strong>Exceptions:</strong></p>
+<ol>
+<li>する - しない</li>
+<li>くる - こない</li>
+<li>＊ある - ない</li>
+</ol>
+</blockquote>
+<h3>Examples</h3>
+<ol>
+<li>
+<p>アリスは食べない。</p>
+<p>As for Alice, does not eat.</p>
+</li>
+<li>
+<p>ジムが遊ばない。</p>
+<p>Jim is the one that does not play.</p>
+</li>
+<li>
+<p>ボブもしない。</p>
+<p>Bob also does not do.</p>
+</li>
+<li>
+<p>お金がない。</p>
+<p>There is no money. (lit: Money is the thing that does not exist.)</p>
+</li>
+<li>
+<p>私は買わない。</p>
+<p>As for me, not buy.</p>
+</li>
+<li>
+<p>猫はいない。</p>
+<p>There is no cat. (lit: As for cat, does not exist.)</p>
+</li>
+</ol>
+<h1>Past Tense</h1>
+<h2>Past tense for ru-verbs</h2>
+<blockquote>
+<p>Drop the 「る」part of the ru-verb and add 「た」.</p>
+</blockquote>
+<h3>Examples</h3>
+<ol>
+<li>
+<p>ご飯は、食べた。</p>
+<p>As for meal, ate.</p>
+</li>
+<li>
+<p>映画は、全部見た。</p>
+<p>As for movie, saw them all.</p>
+</li>
+</ol>
+<h2>Past tense for u-verbs</h2>
+<blockquote>
+<p>Four categories based on verb endings, and some exceptions.</p>
+<p><strong>For「す」endings</strong>: 「す」changes to 「した」.</p>
+<p><strong>For 「く」or 「ぐ」endings</strong>: 「く」changes to 「いた」and 「ぐ」changes to 「いだ」.</p>
+<p><strong>For 「む」,「ぶ」or 「ぬ」endings</strong>: 「む/ぶ/ぬ」changes to 「んだ」.</p>
+<p><strong>For 「る」,「う」or 「つ」endings</strong>: 「る/う/つ」changes to 「った」.</p>
+<p><strong>Exceptions</strong>:</p>
+<ol>
+<li>「する」-「した」</li>
+<li>「来る」-「来た」</li>
+<li>「行く」-「いった」</li>
+</ol>
+</blockquote>
+<h3>Examples</h3>
+<ol>
+<li>
+<p>今日は、走った。</p>
+<p>As for today, ran.</p>
+</li>
+<li>
+<p>友達が来た。</p>
+<p>Friend is the one that came.</p>
+</li>
+<li>
+<p>私も遊んだ。</p>
+<p>I also played.</p>
+</li>
+<li>
+<p>勉強は、した。</p>
+<p>About study, did it.</p>
+</li>
+</ol>
+<h2>Past-negative tense for all verbs</h2>
+<blockquote>
+<p>Change the verb to the negative and replace the 「い」with「かった」.</p>
+</blockquote>
+<h3>Examples</h3>
+<ol>
+<li>
+<p>アリスは食べなかった。</p>
+<p>As for Alice, did not eat.</p>
+</li>
+<li>
+<p>ジムがしなかった。</p>
+<p>Jim is the one that did not do.</p>
+</li>
+<li>
+<p>ボブも行かなかった。</p>
+<p>Bob also did not go.</p>
+</li>
+<li>
+<p>お金がなかった。</p>
+<p>There was no money. (lit: As for money, did not exist.)</p>
+</li>
+<li>
+<p>私は買わなかった。</p>
+<p>As for me, did not buy.</p>
+</li>
+<li>
+<p>猫はいなかった。</p>
+<p>There was no cat. (lit: As for cat, did not exist.)</p>
+</li>
+</ol>
+<h1>Particles used with verbs</h1>
+<h2>The direct object 「を」particle</h2>
+<blockquote>
+<p>The 「を」particle is attached to the end of a word to signify that that word is the direct object of the verb.</p>
+</blockquote>
+<h3>Examples</h3>
+<ol>
+<li>
+<p>魚を食べる。</p>
+<p>Eat fish.</p>
+</li>
+<li>
+<p>ジュースを飲んだ。</p>
+<p>Drank juice.</p>
+</li>
+</ol>
+<hr />
+<p>Places can also be the direct object of motion verbs such as 「歩く」and「走る」.</p>
+<ol>
+<li>
+<p>街をぶらぶら歩く。</p>
+<p>Aimlessly walk through town. (lit: Aimlessly walk town.)</p>
+</li>
+<li>
+<p>高速道路を走る。</p>
+<p>Run through expressway. (lit: Run expressway.)</p>
+</li>
+</ol>
+<hr />
+<p>When you use 「する」with a noun the 「を」particle is optional and you can treat the whole 「noun+する」as one verb.</p>
+<ol>
+<li>
+<p>毎日、日本語を勉強する。</p>
+<p>Study Japanese everyday.</p>
+</li>
+<li>
+<p>メールアドレスを登録した。</p>
+<p>Registered email address.</p>
+</li>
+</ol>
+<h2>The target 「に」particle</h2>
+<blockquote>
+<p>The 「に」particle can specify the target of a verb.</p>
+</blockquote>
+<h3>Examples</h3>
+<ol>
+<li>
+<p>ボブは日本に行った。</p>
+<p>Bob went to Japan.</p>
+</li>
+<li>
+<p>家に帰らない。</p>
+<p>Not go back home.</p>
+</li>
+<li>
+<p>部屋に来る。</p>
+<p>Come to room.</p>
+</li>
+</ol>
+<hr />
+<p>The target particle always targets &quot;to&quot; rather than &quot;from&quot;. 「から」can be used to say &quot;come from&quot;. 「から」is often paired with 「まで」which means &quot;up to&quot;.</p>
+<ol>
+<li>
+<p>アリスは、アメリカから来た。</p>
+<p>Alice came from America.</p>
+</li>
+<li>
+<p>宿題を今日から明日までする。</p>
+<p>Will do homework from today to tomorrow.</p>
+</li>
+</ol>
+<hr />
+<p>The idea of target in Japanese is not restricted to motion verbs.</p>
+<ol>
+<li>
+<p>猫は部屋にいる。</p>
+<p>Cat is in room.</p>
+</li>
+<li>
+<p>いすが台所にあった。</p>
+<p>Chair was in the kitchen.</p>
+</li>
+<li>
+<p>いい友達に会った。</p>
+<p>Met good friend.</p>
+</li>
+<li>
+<p>ジムは医者になる。</p>
+<p>Jim will become a doctor.</p>
+</li>
+<li>
+<p>先週に図書館に行った。</p>
+<p>Went to library last week.</p>
+</li>
+</ol>
+<hr />
+<p>The use of the 「に」particle is optional with time but causes a slight difference in meaning. In the following examples, the target particle makes the date a specific target emphasizing that the friend will go to Japan at that time. Without the particle, there is no special emphasis.</p>
+<ol>
+<li>
+<p>友達は、来年、日本に行く。</p>
+<p>Next year, friend go to Japan.</p>
+</li>
+<li>
+<p>友達は、来年に日本に行く。</p>
+<p>Friend go to Japan next year.</p>
+</li>
+</ol>
+<h2>The directional 「へ」particle</h2>
+<blockquote>
+<p>While the 「に」particle goes <em>to</em> a target as the final, intended destination (both physical and abstract), the 「へ」particle is used to express the fact that one is setting out towards <em>the direction</em> of the target.</p>
+<p>This particle is only used with directional motion verbs.</p>
+<p>It does not guarantee whether the target will reach the final intended destination, only that it is heading towards that direction.</p>
+</blockquote>
+<h3>Examples</h3>
+<ol>
+<li>
+<p>ボブは日本へ行った。</p>
+<p>Bob <em>headed towards</em> Japan.</p>
+</li>
+<li>
+<p>家へ帰らない。</p>
+<p>Not go home <em>toward</em> house.</p>
+</li>
+<li>
+<p>部屋へ来る。</p>
+<p>Come <em>towards</em> room.</p>
+</li>
+</ol>
+<hr />
+<p>We cannot use the 「へ」particle with verbs that have no physical direction. However, it can be used to talk about setting out towards certain future goals and expectations.</p>
+<ul>
+<li>
+<p>勝ちへ向かう。</p>
+<p>Go towards victory.</p>
+</li>
+</ul>
+<h2>The contextual 「で」particle</h2>
+<blockquote>
+<p>The 「で」particle specifies the context in which the action is performed.</p>
+</blockquote>
+<h3>Examples</h3>
+<ol>
+<li>
+<p>映画館で見た。</p>
+<p>Saw at movie theatre.</p>
+</li>
+<li>
+<p>バスで帰る。</p>
+<p>Go home by bus.</p>
+</li>
+<li>
+<p>レストランで昼ご飯を食べた。</p>
+<p>Ate lunch at restaurant.</p>
+</li>
+</ol>
+<h3>Using 「で」with 「何」</h3>
+<p>The word for &quot;what&quot; (「何」) is usually read as 「なに」but sometimes it is read as 「なん」. In these examples it is read 「なにで」.</p>
+<ol>
+<li>
+<p>何できた？</p>
+<p>Came by the way of what?</p>
+</li>
+<li>
+<p>バスできた。</p>
+<p>Came by the way of bus.</p>
+</li>
+</ol>
+<p>However, there is a colloquial version of the word &quot;why&quot; that is used much more often than the less colloquial version 「どうして」or the more forceful 「なぜ」. It is also written as 「何で」but is read as 「なんで」. This is a completely separate word and nothing to do with the 「で」particle.</p>
+<ol>
+<li>
+<p>何できた？</p>
+<p>Why did you come?</p>
+</li>
+<li>
+<p>暇だから。</p>
+<p>Because I am free (as in have nothing to do).</p>
+</li>
+</ol>
+<p>The 「から」here meaning &quot;because&quot; is different from the 「から」is the previous section and will be covered later.</p>
+<h2>When location is the topic</h2>
+<blockquote>
+<p>When the location of an action is also the topic of a sentence you can attach the topic particle 「は」and 「も」to the three particles that indicate location (「に」,「へ」,「で」).</p>
+</blockquote>
+<h3>Examples</h3>
+<p>ボブ：学校に行った？</p>
+<p>Bob: (Did you) go to school?</p>
+<p>アリス：行かなかった。</p>
+<p>Alice: Didn't go.</p>
+<p>ボブ：図書館には？</p>
+<p>Bob: What about library?</p>
+<p>アリス：図書館にも行かなかった。</p>
+<p>Alice: Also didn't go to library.</p>
+<hr />
+<p>ボブ：どこで食べる？</p>
+<p>Bob: Eat where?</p>
+<p>アリス：イタリアレストランではどう？</p>
+<p>Alice: How about Italian restaurant?</p>
+<h2>When direct object is the topic</h2>
+<blockquote>
+<p>The direct object particle is different from particles related to location in that you cannot use any other particles at the same time.</p>
+</blockquote>
+<h3>Examples</h3>
+<ol>
+<li>
+<p>日本語を習う。</p>
+<p>Learn Japanese.</p>
+</li>
+<li>
+<p>日本語は、習う。</p>
+<p>About Japanese, (will) learn it.</p>
+</li>
+</ol>
+
+                </div>
+
+                <!-- Mobile navigation buttons -->
+                
+
+                
+
+            </div>
+
+            
+
+            
+
+        </div>
+
+
+        <!-- Local fallback for Font Awesome -->
+        <script>
+            if ($(".fa").css("font-family") !== "FontAwesome") {
+                $('<link rel="stylesheet" type="text/css" href="_FontAwesome/css/font-awesome.css">').prependTo('head');
+            }
+        </script>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3001");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload(true); // force reload from server (not from cache)
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+    
+
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+    </body>
+</html>

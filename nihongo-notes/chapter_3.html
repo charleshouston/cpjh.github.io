@@ -1,0 +1,272 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <base href="">
+
+        <link rel="stylesheet" href="book.css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+        <link rel="shortcut icon" href="favicon.png">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+
+        <!-- MathJax -->
+        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+        <!-- Fetch JQuery from CDN but have a local fallback -->
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script>
+            if (typeof jQuery == 'undefined') {
+                document.write(unescape("%3Cscript src='jquery.js'%3E%3C/script%3E"));
+            }
+        </script>
+    </head>
+    <body class="light">
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme = localStorage.getItem('theme');
+            if (theme == null) { theme = 'light'; }
+            $('body').removeClass().addClass(theme);
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var sidebar = localStorage.getItem('sidebar');
+            if (sidebar === "hidden") { $("html").addClass("sidebar-hidden") }
+            else if (sidebar === "visible") { $("html").addClass("sidebar-visible") }
+        </script>
+
+        <div id="sidebar" class="sidebar">
+            <ul class="chapter"><li><a href="./chapter_1.html"><strong>1.</strong> Expressing state-of-being</a></li><li><a href="./chapter_2.html"><strong>2.</strong> Introduction to Particles</a></li><li><a href="./chapter_3.html" class="active"><strong>3.</strong> Adjectives</a></li><li><a href="./chapter_4.html"><strong>4.</strong> Verb Basics</a></li><li><a href="./chapter_5.html"><strong>5.</strong> Negative Verbs</a></li><li><a href="./chapter_6.html"><strong>6.</strong> Past Tense</a></li><li><a href="./chapter_7.html"><strong>7.</strong> Particles used with verbs</a></li><li><a href="./chapter_8.html"><strong>8.</strong> Transitive and Intransitive Verbs</a></li></ul>
+        </div>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar" class="menu-bar">
+                    <div class="left-buttons">
+                        <i id="sidebar-toggle" class="fa fa-bars"></i>
+                        <i id="theme-toggle" class="fa fa-paint-brush"></i>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <i id="print-button" class="fa fa-print" title="Print this book"></i>
+                    </div>
+                </div>
+
+                <div id="content" class="content">
+                    <h1>Adjectives</h1>
+<p>All adjectives fall under two categories: <em>na-adjectives</em> and <em>i-adjectives</em>.</p>
+<h2>The na-adjective</h2>
+<blockquote>
+<p>Conjugation rules for nouns and na-adjectives are the same. You can directly modify a noun following it by sticking 「な」between the adjective and noun.</p>
+</blockquote>
+<h3>Examples</h3>
+<ol>
+<li>
+<p>静かな人。</p>
+<p>Quiet person.</p>
+</li>
+<li>
+<p>きれいな人。</p>
+<p>Pretty person.</p>
+</li>
+</ol>
+<hr />
+<p>You can also use adjectives with particles.</p>
+<ol>
+<li>
+<p>友達は親切。</p>
+<p>Friend is kind.</p>
+</li>
+<li>
+<p>友達は親切な人だ。</p>
+<p>Friend is kind person.</p>
+</li>
+</ol>
+<hr />
+<p>The conjugation rules for na-adjectives are the same as nouns.</p>
+<ol>
+<li>
+<p>ボブは魚が好きだ。</p>
+<p>Bob likes fish.</p>
+</li>
+<li>
+<p>ボブは魚が好きじゃない。</p>
+<p>Bob does not like fish.</p>
+</li>
+<li>
+<p>ボブは魚が好きだった。</p>
+<p>Bob liked fish.</p>
+</li>
+<li>
+<p>ボブは魚が好きじゃなかった。</p>
+<p>Bob did not like fish.</p>
+</li>
+</ol>
+<hr />
+<p>You can also use the last three conjugations to directly modify the noun.</p>
+<ol>
+<li>
+<p>魚が好きな人。</p>
+<p>Person that likes fish.</p>
+</li>
+<li>
+<p>魚が好きじゃない人。</p>
+<p>Person that does not like fish.</p>
+</li>
+<li>
+<p>魚が好きだった人。</p>
+<p>Person that liked fish.</p>
+</li>
+<li>
+<p>魚が好きじゃなかった人。</p>
+<p>Person that did not like fish.</p>
+</li>
+</ol>
+<hr />
+<p>We can treat the whole descriptive noun as we would a single noun.</p>
+<ol>
+<li>
+<p>魚が好きじゃない人は、肉が好きだ。</p>
+<p>Person who does not like fish like meat.</p>
+</li>
+<li>
+<p>魚が好きな人は、野菜も好きだ。</p>
+<p>Person who likes fish also like vegetables.</p>
+</li>
+</ol>
+<h2>The i-adjective</h2>
+<blockquote>
+<p>All i-adjectives always end in the Hiragana character 「い」. Very few na-adjectives also end with 「い」, the most common of which are 「きれい」and 「嫌い」.</p>
+</blockquote>
+<h3>Examples</h3>
+<p>You do not need to add 「な」to directly modify a noun with an i-adjective.</p>
+<ol>
+<li>
+<p>嫌いな食べ物。</p>
+<p>Hated food.</p>
+</li>
+<li>
+<p>おいしい食べ物。</p>
+<p>Tasty food.</p>
+</li>
+</ol>
+<h3>Conjugation rules for i-adjectives</h3>
+<p><strong>Do NOT attach 「だ」to i-adjectives.</strong></p>
+<blockquote>
+<ul>
+<li><strong>Negative</strong>: First remove the trailing 「い」from the i-adjective and then attach 「くない」.</li>
+<li><strong>Past-tense</strong>: First remove the trailing 「い」from the i-adjective or negative i-adjective and then attach 「かった」.</li>
+</ul>
+</blockquote>
+<h3>More Examples</h3>
+<ol>
+<li>
+<p>高いビル。</p>
+<p>Tall building.</p>
+</li>
+<li>
+<p>高くないビル。</p>
+<p>Not tall building.</p>
+</li>
+<li>
+<p>高かったビル。</p>
+<p>Building that was tall.</p>
+</li>
+<li>
+<p>高くなかったビル。</p>
+<p>Building that was not tall.</p>
+</li>
+</ol>
+<hr />
+<p>値段が高いレストランはあまり好きじゃない。</p>
+<p>Don't like high price restaurants very much.</p>
+<h2>An annoying exception</h2>
+<h3>Conjugation for 「いい」</h3>
+<ul>
+<li><strong>Positive</strong>: いい</li>
+<li><strong>Negative</strong>: よくない</li>
+<li><strong>Past</strong>: よかった</li>
+<li><strong>Negative Past</strong>: よくなかった</li>
+</ul>
+<h3>Conjugation for 「かっこいい」</h3>
+<ul>
+<li><strong>Positive</strong>: かっこいい</li>
+<li><strong>Negative</strong>: かっこよくない</li>
+<li><strong>Past</strong>: かっこよかった</li>
+<li><strong>Negative Past</strong>: かっこよくなかった</li>
+</ul>
+
+                </div>
+
+                <!-- Mobile navigation buttons -->
+                
+                    <a href="./chapter_2.html" class="mobile-nav-chapters previous">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="./chapter_4.html" class="mobile-nav-chapters next">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+
+            </div>
+
+            
+                <a href="./chapter_2.html" class="nav-chapters previous" title="You can navigate through the chapters using the arrow keys">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+            
+
+            
+                <a href="./chapter_4.html" class="nav-chapters next" title="You can navigate through the chapters using the arrow keys">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            
+
+        </div>
+
+
+        <!-- Local fallback for Font Awesome -->
+        <script>
+            if ($(".fa").css("font-family") !== "FontAwesome") {
+                $('<link rel="stylesheet" type="text/css" href="_FontAwesome/css/font-awesome.css">').prependTo('head');
+            }
+        </script>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3001");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload(true); // force reload from server (not from cache)
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+    
+
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+    </body>
+</html>
